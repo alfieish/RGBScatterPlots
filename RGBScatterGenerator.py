@@ -1,9 +1,8 @@
 from PIL import Image
-from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.pyplot as plt
 import random
 
-piclocation = r'C:\Users\Maurice\Desktop\Python\PictureTools\RGB Fingerprints\SandysMaryMagdalene.jpg'
+piclocation = r'pathtofile.jpg'
 im = Image.open(piclocation)
 
 pixels = list(im.getdata())
